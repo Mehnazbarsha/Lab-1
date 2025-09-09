@@ -56,6 +56,6 @@ public class HybridTest {
     public void testGetFuelLevelReturnsCorrectValue() {
         assertEquals(30, hybrid.getFuelLevel());
         hybrid.refuel();
-        assertEquals(101, hybrid.getFuelLevel());
+        assertEquals(100, hybrid.getFuelLevel());
     }
 }
