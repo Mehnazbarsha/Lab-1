@@ -3,10 +3,6 @@
 ## Overview
 A Java application that calculates MPG (miles per gallon) for gas vehicles, MPGe (miles per gallon equivalent) for electric vehicles, and hybrid efficiency using JUnit 4 for testing.
 
-## Prerequisites
-- Java (JDK 8 or newer)
-- Command line access
-
 ## Project Structure
 ```
 Lab-1/
