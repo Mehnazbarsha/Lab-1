@@ -1,4 +1,4 @@
-package c;
+package u;
 
 import org.junit.Before;
 import org.junit.Test;
