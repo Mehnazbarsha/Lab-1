@@ -1,4 +1,4 @@
-# Lab-1: Basic JUnit 4 // Claude for all code in this package
+# Lab-1: Basic JUnit 4
 
 ## Overview
 A Java application that calculates MPG (miles per gallon) for gas vehicles, MPGe (miles per gallon equivalent) for electric vehicles, and hybrid efficiency using JUnit 4 for testing.
@@ -52,4 +52,6 @@ The program demonstrates:
 4. Cost comparison between gas and electric operation
 
 ## AI Usage
-Code generation assisted by GitHub Copilot (marked with comments).
+Code generation assisted by GitHub Copilot and Claude.ai (marked with comments).
+
+// Claude for all code in this package
