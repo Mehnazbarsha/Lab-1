@@ -7,14 +7,15 @@ A Java application that calculates MPG (miles per gallon) for gas vehicles, MPGe
 ```
 Lab-1/
 ├── c/
-│   ├── CarRunner.java          # Main class with examples
-│   ├── ElectricVehicle.java    # Electric vehicle interface
-│   ├── GasVehicle.java         # Gas vehicle interface
-│   ├── Hybrid.java             # Hybrid implementation
-│   └── HybridTest.java         # Unit tests
-├── junit-4.13.2.jar           # JUnit framework
-├── hamcrest-core-1.3.jar      # Hamcrest matchers
-└── README.md                   # This file
+│   ├── CarRunner.java
+│   ├── ElectricVehicle.java
+│   ├── GasVehicle.java
+│   ├── Hybrid.java
+├── u/
+│   └── HybridTest.java
+├── junit-4.13.2.jar          
+├── hamcrest-core-1.3.jar     
+└── README.md                   
 ```
 
 ## Download Dependencies
@@ -25,7 +26,7 @@ wget https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core
 
 ## Build
 ```bash
-javac -cp "junit-4.13.2.jar" ./c/*.java
+javac -cp "junit-4.13.2.jar" ./c/*.java ./u/*.java
 ```
 
 ## Run Main Program
@@ -35,7 +36,7 @@ java -cp "./" c.CarRunner
 
 ## Run Unit Tests
 ```bash
-java -cp "junit-4.13.2.jar:hamcrest-core-1.3.jar:./" org.junit.runner.JUnitCore c.HybridTest
+java -cp "junit-4.13.2.jar:hamcrest-core-1.3.jar:./" org.junit.runner.JUnitCore u.HybridTest
 ```
 
 ## Key Calculations
