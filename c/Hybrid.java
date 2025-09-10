@@ -1,11 +1,11 @@
-package c;
+package c; // Copilot for some code in this package
 
 public class Hybrid implements ElectricVehicle, GasVehicle {
     private int batteryLevel;
     private int fuelLevel;
     private int milesTraveled;
-    private double costPerGallon; // Copilot
-    private double costPerKWh; // Copilot
+    private double costPerGallon; 
+    private double costPerKWh; 
 
     public Hybrid(int batteryLevel, int fuelLevel) {
         this.batteryLevel = batteryLevel;

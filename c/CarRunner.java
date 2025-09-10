@@ -1,4 +1,4 @@
-package c; // Copilot
+package c; // Copilot for all code in this package
 
 public class CarRunner {
     public static void main(String[] args) {
